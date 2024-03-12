@@ -18,7 +18,6 @@ jobs:
             - name: Install dependencies
               run: |
                 npm install -g truffle
-                npm install
 
             - name: Run tests
               run: truffle test
