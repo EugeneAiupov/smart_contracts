@@ -21,7 +21,7 @@ BlockchainVPN is a smart contract designed for managing a decentralized VPN serv
 
 - UserRegistered, DepositMade, ServiceUsed, WithdrawalMade, EmergencyStopped, EmergencyStarted
 
-### Functions / Функции
+### Functions
 
 #### constructor(), register(), deposit(), useService(uint256 amount), withdraw(uint256 amount), emergencyStop(), resumeService()
 
