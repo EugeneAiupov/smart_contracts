@@ -23,10 +23,7 @@ jobs:
               run: npm install
 
             - name: Compile contracts
-              run: truffle compile
-
-            - name: List files
-              run: ls -R
+              run: npx truffle compile
 
             - name: Run tests
-              run: truffle test
+              run: npx truffle test
